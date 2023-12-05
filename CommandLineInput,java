@@ -1,0 +1,19 @@
+public class CommandLineInput
+{
+	public static void main(String  []args)
+	{
+		if (args.length<4)
+		{
+		    System.out.println("ploease enter your name,age,gender,occupation as command line arguments");
+		    return ;
+		}
+    String name=args[0];
+    int age=Integer.parseInt(args[1]);
+    String gender=args[2];
+    String Occupation=args[3];
+	System.out.println("name: "+name);
+	System.out.println("age: "+age);
+	System.out.println("gender: "+gender);
+	System.out.println("occupation: "+Occupation);
+        }
+}
