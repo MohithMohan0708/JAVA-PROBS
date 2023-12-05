@@ -1,0 +1,10 @@
+public class ImplictTypeConversion
+{
+ public static void main(String args[])
+{
+	int intvalue=10;
+	double doublevalue=intvalue;
+	System.out.println("int vlaue :"+intvalue);
+	System.out.println("double value :"+doublevalue);
+ }
+}
