@@ -5,6 +5,6 @@ public class ImplictTypeConversion
 	int intvalue=10;
 	double doublevalue=intvalue;
 	System.out.println("int vlaue :"+intvalue);
-	System.out.println("double value :"+doublevalue);
+	System.out.println("double value :"+doublevalues);
  }
 }
